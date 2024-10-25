@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  resources :words
   root "words#index"
+  resources :words
+  resources :words_bulk_uploads, only: %i[new create]
 end

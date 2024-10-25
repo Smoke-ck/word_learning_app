@@ -1,0 +1,2 @@
+module WordsBulkUploadsHelper
+end
