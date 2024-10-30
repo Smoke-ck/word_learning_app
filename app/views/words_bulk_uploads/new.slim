@@ -1,0 +1,7 @@
+
+= form_with url: words_bulk_uploads_path, multipart: true, data: { turbo: false } do |form|
+  .form-group
+    = form.label :file, "Choose Excel File"
+    = form.file_field :file, accept: ".xls, .xlsx"
+
+  = form.submit "Import Words", class: "btn btn-primary"

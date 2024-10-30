@@ -190,6 +190,9 @@ GEM
     reline (0.5.10)
       io-console (~> 0.5)
     rexml (3.3.8)
+    roo (2.10.1)
+      nokogiri (~> 1)
+      rubyzip (>= 1.3.0, < 3.0.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.25.0)
       base64 (~> 0.2)
@@ -250,6 +253,7 @@ DEPENDENCIES
   pry
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.1)
+  roo
   selenium-webdriver
   slim
   sprockets-rails
