@@ -1,0 +1,23 @@
+.words {
+  height: 80vh;
+  padding: 50px 0 100px 0;
+  overflow: scroll;
+  // &::-webkit-scrollbar { display: none; }
+}
+
+.word {
+  background-color: white;
+  border-radius: 40px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 11px 17px -6px rgba(9,35,81,1);
+  -moz-box-shadow: 0px 11px 17px -6px rgba(9,35,81,1);
+  box-shadow: 0px 11px 17px -6px rgba(9,35,81,1);
+
+  p {
+    color: #092351;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
