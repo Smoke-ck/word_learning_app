@@ -1,2 +1,4 @@
-= link_to 'Add Words', new_words_bulk_upload_path, class: 'btn'
-
+.container
+  = link_to 'Add Words', new_words_bulk_upload_path, class: 'btn'
+  .words
+    = render @words
